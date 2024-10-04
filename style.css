@@ -1,0 +1,206 @@
+
+body {
+    background: black;
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 0.25em;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(115, 0, 255);
+    padding: 0.1em;   
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-inline: 0px;
+}
+ 
+nav li:nth-of-type(3){
+    margin-right: auto;
+}
+
+nav li {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+}
+
+nav li a:focus {
+    background-color: rgb(224, 224, 134);
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+    line-height: 1;
+    font-weight: 1000; 
+}
+
+h2 {
+    color: white;
+}
+
+.overons {
+    display: flex;
+    justify-content: center;
+}
+
+.afleveringen {
+    display: flex;
+    justify-content: center;
+
+}
+
+.laatsteafleveringen {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.kaarten {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    width: 50em;
+}
+
+.kaart {
+    display: flex;
+    align-items: center;
+    background-color:rgb(115, 0, 255) ;
+    border-radius: 0.7em;
+    margin: 1em;
+}
+
+.kaart > img {
+    display: block;
+    background-color: rgb(115, 0, 255);
+    padding: 2em;
+    width: 10em;
+    border-radius: 0.7em;
+}
+
+.kaartdetails {
+    background-color:rgb(115, 0, 255);
+    padding: 2em;
+
+}
+
+.kaartdetails img {
+    width: 90%;
+}
+
+.kaartdetails img:hover {
+  transform: scale(1.1); 
+}
+
+p {
+    color: white;
+}
+   
+.subscribe {
+    display: block;
+    padding: 0.5em;
+    background-color: yellow;
+    border-radius: 0.7em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:rgb(115, 0, 255) ;
+    font-family: fantasy;
+}
+
+.subscribe:hover {
+    text-decoration: underline;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+main section p {
+    margin: 1em;
+}
+
+button {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 1em;
+    cursor: pointer;
+    background-color: black;
+    border-color: yellow;
+    border-width: 0.5em;
+}
+
+button:hover {
+    background-color: rgb(227, 227, 80);
+    transition: 300ms;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.voorstelkaart {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.voorsteltekst {
+    background-color:rgb(115, 0, 255);
+    padding: 3em;
+    border-radius: 0.7em;
+    width: 20em;
+}
+
+.voorstelkaart > img {
+    margin-right: 5em;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(115, 0, 255);
+    padding: 0.1em;   
+}
+
+footer ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 0em;
+    align-items: baseline;
+}
+
+footer li:last-of-type {
+    display: flex;
+    flex-direction: row;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
